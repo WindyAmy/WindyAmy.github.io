@@ -12,20 +12,36 @@ tags: git
 |comand|function|
 |:------|:-----|
 |$ git init| git初始化|
+<br/>
 |$ git add .| 将修改增加到缓存区|
+<br/>
 |$ git commit ""|将存到缓存区的内容提交到git|
+<br/>
 |$ git log|查看历史操作记录|
+<br/>
 |$ git status|查看当前状态|
+<br/>
 |$ git reflog|查看历史命令|
+<br/>
 |$ git log --pretty=oneline|横向显示历史记录（当记录比较多时）|
+<br/>
 |$ git reset --hard HEAD^ |退回上一个版本，^^上上个版本，~10退回到第10个版本，filename把filename暂存区的修改回退到工作区|
 |$ git diff filename|查看文件修改的记录|
+<br/>
 |$ git checkout file|切换到分支|
+<br/>
 |$ git checkout --"fielname"|撤销工作区的修改, 也可以用于误删文件，版本库替换工作区|
 |$ rm filename|删除文件|
+<br/>
 |$ git rm filename|从版本库中删除文件|
+<br/>
 |$ git branch file|创建分支|
+<br/>
 |$ git branch|查看当前分支|
+<br/>
 |$ git merge file|合并指定分支到当前分支|
+<br/>
 |$ git branch -d file|删除分支|
+<br/>
 |$ git log --graph|查看合并分支图|
+<img src="http://image.beekka.com/blog/201208/bg2012082507.jpg">
