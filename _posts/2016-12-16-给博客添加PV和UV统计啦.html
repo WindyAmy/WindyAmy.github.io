@@ -1,0 +1,42 @@
+---
+layout: post
+title: 给博客添加PV和UV统计啦
+date: 2016-12-16
+tags: 博客
+---
+<div class="container-fluid">
+    <div class="panel panel-default">
+        <div class="panel-heading">给博客添加PV和UV统计啦</div>
+        <div class="panel-body">
+            上次给博客添加了文章的统计,这次利用不蒜子给站点增加统计功能~~
+            <br />
+            使用起来也非常简单,按照不蒜子官方的教程一步一步走就行, 这里稍微记录一下
+            <br />
+            修改next/layout/_partials/footer.swig”文件,在里面新增一些代码即可:
+            <br />
+            脚本:
+            <br />
+            <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+            </script>
+            <br />
+            显示效果(其中 PV,UV字样可以自己修改):
+            <br />
+            <pre>
+            <code>
+             &lt;span id="busuanzi_container_site_pv"&gt;
+                    PV:&lt;span id="busuanzi_value_site_pv"&gt;&lt;/span&gt;
+                &lt;/span&gt;
+            &lt;span id="busuanzi_container_site_uv"&gt;
+                    UV:&lt;span id="busuanzi_value_site_uv"&gt;&lt;/span&gt;
+                &lt;/span&gt;
+                {% block footer %}{% endblock %}
+            //注意 这行原来就有
+                </code>
+</pre>
+            <br />
+            这样就能在博客的首页底部显示PV和UV啦!~
+            <br />
+            很可惜的是,我在刚搭建博客的时候没有去统计,现在才开通,非常吃亏-0-~~
+        </div>
+    </div>
+</div>
