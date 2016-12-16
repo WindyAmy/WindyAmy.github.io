@@ -3,7 +3,7 @@ title: WindyWang
 subtitle: 个人站
 description: 欢迎来到我的个人站~
 # 头像里面的标题
-avatarTitle: leopardpan
+avatarTitle: WindyAmy
 # 头像里面的描述
 avatarDesc: .NET
 url: "https://windyamy.github.io"
@@ -11,7 +11,7 @@ url: "https://windyamy.github.io"
 # Comment
 comment:
     # disqus: leopard
-    duoshuo: leopard 
+    duoshuo: WindyAmy 
 
 # Social
 social:
